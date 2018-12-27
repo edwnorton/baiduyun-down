@@ -8,8 +8,6 @@ import random
 import logging
 from bs4 import BeautifulSoup
 
-# url = 'https://sobooks.net/page/1'
-# url1 = 'https://sobooks.net/books/11353.html'
 logger = logging.getLogger(__name__)
 fh = logging.FileHandler(encoding='utf-8', mode='a', filename="t.log")
 logging.basicConfig(handlers=[fh], format='[%(asctime)s %(levelname)s]<%(process)d> %(message)s',\
